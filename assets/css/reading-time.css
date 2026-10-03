@@ -1,0 +1,43 @@
+/*! MornRain Reading Time - assets/css/reading-time.css */
+
+.mornrain-reading-time {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.45em;
+	margin: 0 0 1.4em;
+	padding: 0.35em 0.9em;
+	background-color: rgba(127, 127, 127, 0.1);
+	border-radius: 999px;
+	color: inherit;
+	font-size: 0.82em;
+	line-height: 1.6;
+	letter-spacing: 0.04em;
+	opacity: 0.85;
+}
+
+.mornrain-reading-time__icon {
+	display: inline-block;
+	position: relative;
+	width: 0.72em;
+	height: 0.72em;
+	border: 1.5px solid currentColor;
+	border-radius: 50%;
+}
+
+.mornrain-reading-time__icon::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 1px;
+	height: 0.3em;
+	background-color: currentColor;
+	transform-origin: top center;
+	transform: rotate(-30deg);
+}
+
+@media print {
+	.mornrain-reading-time {
+		display: none;
+	}
+}
