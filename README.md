@@ -131,27 +131,27 @@ Shortcode: `[mornrain_reading_time]`, or `[mornrain_reading_time post_id="12"]`.
 ## File structure
 
 ```text
-mornrain-reading-time/
-|-- .github/
-|   `-- workflows/
-|       `-- build.yml
-|-- assets/
-|   `-- css/
-|       `-- reading-time.css
-|-- includes/
-|   |-- class-mornrain-reading-time.php
-|   |-- functions-reading-time.php
-|   `-- shortcode-reading-time.php
-|-- tests/
-|   |-- ScaffoldTest.php
-|   `-- bootstrap.php
-|-- mornrain-reading-time.php
-|-- composer.json
-|-- LICENSE
-|-- phpunit.xml.dist
-|-- README.md
-|-- readme.txt
-`-- uninstall.php
+mornrain-reading-time/                    # MornRain Reading Time 插件根目录：阅读时长提示
+|-- .github/                              # GitHub 仓库配置目录
+|   `-- workflows/                        # GitHub Actions 工作流目录
+|       `-- build.yml                     # CI 工作流：在 PHP 8.1–8.3 上 lint、跑 PHPUnit 并打包 ZIP 构件
+|-- assets/                               # 前端静态资源目录
+|   `-- css/                              # 样式资源目录
+|       `-- reading-time.css              # 前台样式：阅读时长提示条外观，仅单篇视图加载
+|-- includes/                             # 插件 PHP 源码目录
+|   |-- class-mornrain-reading-time.php   # 主类：在 the_content 插入阅读时长提示并防止重复输出
+|   |-- functions-reading-time.php        # 辅助函数：拉丁词与 CJK 字符分别计数、按速度估算分钟数
+|   `-- shortcode-reading-time.php        # 短码：实现 [mornrain_reading_time]
+|-- tests/                                # PHPUnit 测试目录
+|   |-- ScaffoldTest.php                  # 脚手架冒烟测试：断言 README、LICENSE、composer.json 存在
+|   `-- bootstrap.php                     # PHPUnit 引导文件：存在时才加载 Composer 自动加载器
+|-- mornrain-reading-time.php             # 插件入口：声明插件头并加载 includes
+|-- composer.json                         # Composer 元数据与 lint/test 脚本
+|-- LICENSE                               # GPL-2.0-or-later 许可证全文
+|-- phpunit.xml.dist                      # PHPUnit 配置，扫描 tests 目录
+|-- README.md                             # 插件说明文档
+|-- readme.txt                            # WordPress 插件目录要求的 readme.txt
+`-- uninstall.php                         # 卸载脚本：插件无持久数据，仅作占位说明
 ```
 
 ---
@@ -217,4 +217,3 @@ No. There is no options row, no custom table and no transient.
 
 Released under the **GNU General Public License v2 or later**. See
 [LICENSE](LICENSE) for the full text.
-*（内容由AI生成，仅供参考）*
