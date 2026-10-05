@@ -1,14 +1,3 @@
----
-AIGC:
-    Label: "1"
-    ContentProducer: 001191440300708461136T1XGW3
-    ProduceID: cf93d2ba4252e3fc820ac383cb09c649_7bb5cfbbbe7a11f18019525400248c00
-    ReservedCode1: uBXrUyIWfz8skFRmOJAw1mWH9trys5XmMy/Fga60DFFzhiQtQ1A2kVh7UWapic+ylrar4G2kZFyHCnhhN0kbbouAHkpl6XwXHekWgIl/Rlk++ErEp/bgB9dAtZcaEBvvmhwBQttFIbdrutOmqCVGxzN9v6uyrPmE/NPU58hWTnVgjoWKCjvA3PwiJIA=
-    ContentPropagator: 001191440300708461136T1XGW3
-    PropagateID: cf93d2ba4252e3fc820ac383cb09c649_7bb5cfbbbe7a11f18019525400248c00
-    ReservedCode2: uBXrUyIWfz8skFRmOJAw1mWH9trys5XmMy/Fga60DFFzhiQtQ1A2kVh7UWapic+ylrar4G2kZFyHCnhhN0kbbouAHkpl6XwXHekWgIl/Rlk++ErEp/bgB9dAtZcaEBvvmhwBQttFIbdrutOmqCVGxzN9v6uyrPmE/NPU58hWTnVgjoWKCjvA3PwiJIA=
----
-
 # MornRain Reading Time
 
 > An estimated reading time notice, prepended automatically to every single post.
