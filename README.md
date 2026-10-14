@@ -1,3 +1,5 @@
+![mornrain-reading-time](assets/preview.png)
+
 # MornRain Reading Time
 
 > An estimated reading time notice, prepended automatically to every single post.
