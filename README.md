@@ -1,4 +1,4 @@
-![mornrain-reading-time](assets/preview.png)
+![mornrain-reading-time](assets/admin.png)
 
 # MornRain Reading Time
 
@@ -19,6 +19,10 @@ the site owner explicitly configures.
 | Class prefix | `Mornrain_Reading_Time` |
 
 ---
+
+## 界面预览
+
+![插件激活与简介页](assets/admin.png)
 
 ## Table of contents
 
